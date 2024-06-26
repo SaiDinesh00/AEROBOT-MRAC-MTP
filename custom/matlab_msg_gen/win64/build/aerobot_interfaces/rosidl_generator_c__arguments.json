@@ -1,0 +1,28 @@
+{
+  "package_name": "aerobot_interfaces",
+  "output_dir": "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/build/aerobot_interfaces/rosidl_generator_c/aerobot_interfaces",
+  "template_dir": "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces:msg/EscMsg.idl",
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces:srv/Calibrate.idl",
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces:srv/EscSrv.idl"
+  ],
+  "target_dependencies": [
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../../../Lib/site-packages/rosidl_generator_c/__init__.py",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "C:/Program Files/MATLAB/R2023b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces/msg/EscMsg.idl",
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces/srv/Calibrate.idl",
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/build/aerobot_interfaces/rosidl_adapter/aerobot_interfaces/srv/EscSrv.idl"
+  ]
+}

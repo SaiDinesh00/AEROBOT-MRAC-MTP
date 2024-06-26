@@ -1,0 +1,142 @@
+[2.025s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\Users\\dsai9\\AppData\\Roaming\\MathWorks\\MATLAB\\R2023b\\ros2\\win64\\venv\\Scripts\\colcon', 'build', '--merge-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG', '-G', 'Ninja'][0m
+[2.025s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG', '-G', 'Ninja'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x0000018985C591F0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x0000018985BC0A60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x0000018985BC0A60>>)[0m
+[2.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[2.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[2.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[2.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[2.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[2.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[2.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64'
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[2.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[2.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[2.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[2.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[2.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[2.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[2.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[2.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[2.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[2.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[2.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[2.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[2.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[2.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[2.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[2.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[2.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[2.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extension 'ignore'
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extension 'ignore_ament_install'
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extensions ['colcon_pkg']
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extension 'colcon_pkg'
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extensions ['colcon_meta']
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extension 'colcon_meta'
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extensions ['ros']
+[2.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\aerobot_interfaces) by extension 'ros'
+[2.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\aerobot_interfaces' with type 'ros.ament_cmake' and name 'aerobot_interfaces'[0m
+[2.264s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[2.265s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[2.265s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[2.265s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[2.265s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG', '-G', 'Ninja']'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aerobot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.332s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'aerobot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\dsai9\\OneDrive\\Documents\\BNO055\\custom\\matlab_msg_gen\\win64\\build\\aerobot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\dsai9\\OneDrive\\Documents\\BNO055\\custom\\matlab_msg_gen\\win64\\install', 'merge_install': True, 'path': 'C:\\Users\\dsai9\\OneDrive\\Documents\\BNO055\\custom\\matlab_msg_gen\\win64\\src\\aerobot_interfaces', 'symlink_install': False, 'test_result_base': None}[0m
+[2.334s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[2.374s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[2.375s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\src\aerobot_interfaces' with build type 'ament_cmake'
+[2.375s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\src\aerobot_interfaces'
+[2.384s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[2.384s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.520s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\build\aerobot_interfaces': C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.EXE --build C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\build\aerobot_interfaces -- -j12 -l12[0m
+[28.368s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\build\aerobot_interfaces' returned '0': C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.EXE --build C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\build\aerobot_interfaces -- -j12 -l12[0m
+[28.498s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\build\aerobot_interfaces': C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.EXE --install C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\build\aerobot_interfaces[0m
+[29.554s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(aerobot_interfaces)
+[29.557s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\build\aerobot_interfaces' returned '0': C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.EXE --install C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\build\aerobot_interfaces[0m
+[29.578s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install' for CMake module files
+[29.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install' for CMake config files
+[29.584s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aerobot_interfaces', 'cmake_prefix_path')
+[29.589s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\cmake_prefix_path.ps1'
+[29.598s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\cmake_prefix_path.bat'
+[29.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\cmake_prefix_path.dsv'
+[29.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\bin'
+[29.624s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aerobot_interfaces', 'path_dll')
+[29.631s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path_dll.ps1'
+[29.633s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path_dll.bat'
+[29.634s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path_dll.dsv'
+[29.635s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\bin'
+[29.635s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aerobot_interfaces', 'path')
+[29.641s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path.ps1'
+[29.642s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path.bat'
+[29.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path.dsv'
+[29.644s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\lib\pkgconfig\aerobot_interfaces.pc'
+[29.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\Lib\site-packages'
+[29.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\Scripts'
+[29.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\package.ps1'
+[29.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\package.bat'
+[29.670s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\package.dsv'
+[29.678s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\colcon-core\packages\aerobot_interfaces)
+[29.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(aerobot_interfaces)
+[29.781s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install' for CMake module files
+[29.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install' for CMake config files
+[29.787s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aerobot_interfaces', 'cmake_prefix_path')
+[29.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\cmake_prefix_path.ps1'
+[29.794s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\cmake_prefix_path.bat'
+[29.796s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\cmake_prefix_path.dsv'
+[29.797s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\bin'
+[29.797s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aerobot_interfaces', 'path_dll')
+[29.803s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path_dll.ps1'
+[29.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path_dll.bat'
+[29.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path_dll.dsv'
+[29.806s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\bin'
+[29.807s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aerobot_interfaces', 'path')
+[29.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path.ps1'
+[29.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path.bat'
+[29.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\hook\path.dsv'
+[29.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\lib\pkgconfig\aerobot_interfaces.pc'
+[29.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\Lib\site-packages'
+[29.818s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\Scripts'
+[29.824s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\package.ps1'
+[29.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\package.bat'
+[29.827s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\aerobot_interfaces\package.dsv'
+[29.828s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\share\colcon-core\packages\aerobot_interfaces)
+[29.829s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[29.829s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[29.846s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[29.846s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[29.846s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.846s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[35.041s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[35.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\local_setup.ps1'
+[35.061s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\_local_setup_util_ps1.py'
+[35.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\setup.ps1'
+[35.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\local_setup.bat'
+[35.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\_local_setup_util_bat.py'
+[35.104s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\Users\dsai9\OneDrive\Documents\BNO055\custom\matlab_msg_gen\win64\install\setup.bat'

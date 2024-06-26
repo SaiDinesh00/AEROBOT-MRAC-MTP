@@ -1,0 +1,8 @@
+{
+  "package_name": "aerobot_interfaces",
+  "non_idl_tuples": [
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/src/aerobot_interfaces:msg/EscMsg.msg",
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/src/aerobot_interfaces:srv/Calibrate.srv",
+    "C:/Users/dsai9/OneDrive/Documents/BNO055/custom/matlab_msg_gen/win64/src/aerobot_interfaces:srv/EscSrv.srv"
+  ]
+}
